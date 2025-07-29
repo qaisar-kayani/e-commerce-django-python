@@ -6,3 +6,5 @@ def API_RESPONSE(success= True, message="", data=None, status_code=200):
         "message": message,
         "data": data
     }, status=status_code)
+
+
